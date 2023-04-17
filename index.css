@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: #17162E;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  color: #FFFFFF;
+}
+
+.inputSearch {
+  display: flex;
+  justify-content: center;
+}
+
+#input {
+  width: 630px;
+  height: 74px;
+  margin-top: 48px;
+  background-color: #FFFFFF;
+  opacity: 0.2;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  color: #FFFFFF;
+}

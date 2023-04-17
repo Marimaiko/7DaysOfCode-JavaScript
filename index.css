@@ -2,7 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   font-family: 'Kumbh Sans', sans-serif;
-  background-color: #17162E;
+}
+
+body {
+    background-color: #17162E;
 }
 
 .header {
@@ -16,7 +19,6 @@
   display: flex;
   justify-content: center;
   /* border-start-start-radius:  8px; */
-
 }
 
 .inputSearch button {
@@ -52,4 +54,56 @@
   gap: 10px;
   margin-top: 30px;
   color: #FFFFFF;
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+}
+
+.movieCard {
+  display: flex;
+  justify-content: space-between;
+  border: 1px black solid;
+  align-items: center;
+  background-color: #1D1C3B;
+  margin: 30px 108px;
+  padding: 30px 40px;
+  gap: 75px;
+}
+
+.movieImg img{
+  display: flex;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.movieName, .movieRate, .classification {
+  color: #FFFFFF;
+}
+
+.movieDescription p {
+  color: #ACACAC;
+}
+
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.rateFavorite {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  align-self: center;
+}
+
+.classification {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: none;
+  background-color: #1D1C3B;
 }

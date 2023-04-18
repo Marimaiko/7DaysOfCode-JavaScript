@@ -98,4 +98,4 @@ function renderMovie(movieCard) {
 
     movieElement.appendChild(movieInformations)
     movieElement.appendChild(movieDescriptionContainer)
-}
+}l

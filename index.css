@@ -48,6 +48,10 @@ body {
   opacity: 0.2;
 }
 
+::placeholder {
+  color: #ACACAC;
+}
+
 .filter {
   display: flex;
   justify-content: center ;
